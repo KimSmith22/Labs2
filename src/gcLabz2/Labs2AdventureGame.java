@@ -51,7 +51,20 @@ public class Labs2AdventureGame {
 				System.out.println("No one has ever faced a " + headInt + " headed dragon before!  Choose your weapon.");
 				System.out.println("(enter slingshot, sword, or bow and arrow: )");
 				weaponString = k.nextLine();
-			}
-		}
-	}
-}
+				
+			//switches for weapon and color
+			switch (weaponString) {
+			case "slingshot":
+			case "sword":
+			case "bow and arrow":
+				System.out.println("Armed with your " + (weaponString) + ", you approach the dragon.  You can feel its fiery");
+				System.out.println("breath as you get closer.  It stares at you with its__ eyes.  (enter red or blue): ");
+				colorString = k.nextLine();
+				
+			switch (colorString) {
+			case "red":
+			case "blue":
+				System.out.println("Oh thank goodness! " + (colorString) + " dragons are friendly.  You pet it and become frineds.");
+				System.out.println("You name the dragon ____. (enter a name):");
+				dragonName = k.nextLine();
+			
