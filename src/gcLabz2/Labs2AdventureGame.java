@@ -67,4 +67,14 @@ public class Labs2AdventureGame {
 				System.out.println("Oh thank goodness! " + (colorString) + " dragons are friendly.  You pet it and become frineds.");
 				System.out.println("You name the dragon ____. (enter a name):");
 				dragonName = k.nextLine();
+				
+				System.out.println((yourName) + " and " + (dragonName) + " live happily ever after.");
+				
+					}
+				}
+			
+			}
+		}
+	}
+}
 			
